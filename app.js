@@ -15,4 +15,6 @@ console.log(soma(10,3));
 console.log(subt(10,3));
 console.log(mult(10,3));
 console.log(div(10,3));
+var resultado = mult(10,10);
+console.log("Resultado="+resultado);
 
