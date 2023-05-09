@@ -1,6 +1,5 @@
-function soma(a, b){
-    return a+b;
-}
+var calculadora = require("./operacoes");
+
 function subt(a,b){
     return a-b;
 }
@@ -11,10 +10,5 @@ function div(a,b){
     return a/b;
 }
 
-console.log(soma(10,3));
-console.log(subt(10,3));
-console.log(mult(10,3));
-console.log(div(10,3));
-var resultado = mult(10,10);
-console.log("Resultado="+resultado);
-
+console.log(calculadora.mult(10,3));
+console.log(calculadora.div(10,5));
